@@ -1,0 +1,140 @@
+*{
+    margin: 0; padding: 0; 
+    font-family: 'Open Sans', sans-serif;
+    border: none; outline: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    box-sizing: border-box;
+}
+header{
+    width: 100%;
+    border-bottom: 1px solid #f0f2f5;
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.menuBar{
+    display: flex;
+    justify-content: space-between;
+}
+.menu ul li{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 1rem;
+    line-height: 3rem;
+}
+.menu ul li a{
+    font-size: 1rem;
+    font-weight: 400;
+    color: #6c8784;
+}
+.bannerSection{
+    width: 100%;
+    padding: 3rem 0rem;
+    text-align: center;
+}    
+.bannerContents h1{
+    font-size: 3rem;
+    color: #0f2656;
+    width: 60%;
+    margin: 0 auto;
+}
+.bannerContents h1 span{
+    color: #008aff;
+
+}.bannerContents p{
+    font-size: 1rem;
+    color: #102557;
+    width: 70%;
+    margin: 1.5rem auto;
+}
+.about{
+    width: 100%;
+    padding: 2.5rem 0rem;
+}
+.aboutUs{
+    display: flex;
+    justify-content: center;
+    padding: 4rem 0rem;
+}
+.a-left{
+    flex-basis: 50%;
+    text-align: right;
+    margin-right: .1rem;
+}
+.a-left h2{
+    font-size: 3rem;
+    color: #f15666;
+    margin-bottom: .5rem;
+}
+.a-left p{
+    font-size: 1rem;
+    color: #102557;
+    margin-left: 10rem;
+}
+.a-right{
+    flex-basis: 50%;
+    text-align: left;
+    margin-left: 1rem;
+}
+.a-right h2{
+    font-size: 3rem;
+    color: #0f2656;
+    margin-right: 10rem;
+}
+.gallery{
+    width: 100%;
+    padding-bottom: 3rem;
+}
+.galleryContent{
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+.one{
+    background: #fdebed;
+    width: 95%;;
+}
+.two{
+    background: #ebf9f4;
+    width:95%;;
+}
+.three{
+    background: #fff7e8;
+    width: 95%;;
+}
+.bg{
+   margin: 1rem; 
+   border-radius: .2rem;
+   padding: 2.5rem 1rem;
+}
+.bg img{
+    width: 95%;
+    margin-bottom: 1.5rem;
+}
+.bg div{
+    padding: 2rem 1rem;
+}
+.bg h3{
+    font-size: 1.5rem;
+}
+.bg p{
+    font-size: .9rem;
+    line-height: 1.6;
+}
+footer{
+    width: 100%;
+    background: #008aff;
+    padding: 1.5rem 0rem;
+    text-align: center;
+}
+footer p{
+    font-size: .8rem;
+    color: #dadcde;
+}
+footer p span{
+    font-size: 1rem;
+    font-weight: 600;
+    color: #ffffff;
+    letter-spacing: .2rem;
+}
